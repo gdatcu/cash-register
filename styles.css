@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --soft-blue: #4a90e2;
+  --dark-gray: #333;
+  --light-blue: #b3d4fc;
+  --cream: #f9f1e7;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--dark-gray);
+  font-family: 'Arial', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 20px;
+}
+
+.freecodecamp-logo {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 30px 0;
+  text-align: center;
+  color: var(--soft-blue);
+}
+
+#change-due {
+  text-align: left;
+  font-size: 1.4rem;
+  color: var(--dark-gray);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+label {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.user-input {
+  height: 35px;
+  padding: 12px;
+  margin: 15px;
+  font-size: 16px;
+  border: 2px solid var(--soft-blue);
+  border-radius: 5px;
+}
+
+.price-screen {
+  border: 12px solid var(--light-blue);
+  background-color: var(--dark-gray);
+  height: 60px;
+  width: 220px;
+  color: var(--cream);
+  font-size: 1.5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#price {
+  font-size: 1.7rem;
+}
+
+.connector {
+  margin-top: 20px;
+  background-color: var(--light-blue);
+  height: 40px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.top-register {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 35px 35px 0 0;
+  padding-top: 25px;
+  background-color: var(--soft-blue);
+  height: 270px;
+  width: 350px;
+}
+
+.btns-container {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 50%;
+  border: none;
+  width: 25px;
+  height: 25px;
+  background-color: var(--dark-gray);
+  margin: 5px;
+}
+
+.check-btn-styles {
+  cursor: pointer;
+  width: 120px;
+  height: 35px;
+  margin: 15px;
+  color: var(--soft-blue);
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #ffe066;
+  border: 2px solid var(--soft-blue);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cash-drawer-display {
+  font-size: 1.2rem;
+  background-color: var(--dark-gray);
+  width: 60%;
+  height: 100%;
+  color: var(--cream);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-register {
+  background-color: var(--soft-blue);
+  height: 60px;
+  width: 350px;
+  margin-top: 20px;
+  border-radius: 0 0 35px 35px;
+}
+
+.circle {
+  margin: 20px auto;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: var(--dark-gray);
+}
